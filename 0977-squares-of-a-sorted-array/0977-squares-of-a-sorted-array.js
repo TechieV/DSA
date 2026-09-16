@@ -1,5 +1,3 @@
-nums = [-4,-1,0,3,10]
-
 var sortedSquares = function(nums) {
     let pos = [];
     let neg = [];
@@ -38,5 +36,3 @@ var sortedSquares = function(nums) {
     console.log(pos,neg);
 return sortedSquares;
 }; 
-
-console.log(sortedSquares(nums));
