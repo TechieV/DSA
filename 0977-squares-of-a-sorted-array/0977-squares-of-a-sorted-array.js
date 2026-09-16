@@ -1,14 +1,42 @@
-/**
- * @param {number[]} nums
- * @return {number[]}
- */
-var sortedSquares = function(nums) {
-    let sorted = [];
-    for(let i=0; i<nums.length;i++){
-        let square = nums[i]**2;
-        sorted.push(square)
+nums = [-4,-1,0,3,10]
 
+var sortedSquares = function(nums) {
+    let pos = [];
+    let neg = [];
+    for(let i = 0; i < nums.length; i++){
+        if(nums[i] >= 0){
+            pos.push(nums[i]**2)
+        }
+        else{
+            neg.push(nums[i]**2)
+        }
     }
-    sorted = sorted.sort((a, b) => a - b); 
-    return sorted;
-};
+    let i = 0;
+    let j = 0;
+    let sortedSquares = [];
+    neg = neg.toReversed();
+    while(i<neg.length && j<pos.length){
+        if(neg[i]<=pos[j]){
+            sortedSquares.push(neg[i])
+            i++;
+        }
+        else{
+            sortedSquares.push(pos[j])
+            j++;
+    
+        }
+    }
+    while(i<neg.length){
+        sortedSquares.push(neg[i])
+        i++;
+    }
+    while(j<pos.length){
+        sortedSquares.push(pos[j])
+        j++;
+    }
+
+    console.log(pos,neg);
+return sortedSquares;
+}; 
+
+console.log(sortedSquares(nums));
