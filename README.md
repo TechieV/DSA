@@ -6,6 +6,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/TechieV/DSA/tree/master/0001-two-sum) |
+| [0015-3sum](https://github.com/TechieV/DSA/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/TechieV/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/TechieV/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/TechieV/DSA/tree/master/0169-majority-element) |
@@ -22,6 +23,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/TechieV/DSA/tree/master/0015-3sum) |
 | [0169-majority-element](https://github.com/TechieV/DSA/tree/master/0169-majority-element) |
 | [0977-squares-of-a-sorted-array](https://github.com/TechieV/DSA/tree/master/0977-squares-of-a-sorted-array) |
 ## Counting
@@ -35,6 +37,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/TechieV/DSA/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/TechieV/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/TechieV/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0977-squares-of-a-sorted-array](https://github.com/TechieV/DSA/tree/master/0977-squares-of-a-sorted-array) |
